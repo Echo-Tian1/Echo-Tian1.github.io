@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none" role="img" aria-labelledby="court-title court-desc">
+<title id="court-title">网球场一隅</title>
+<desc id="court-desc">深绿色的网球场以白色边线划分，一颗橘色网球落在近处，留下柔和阴影。</desc>
+<defs>
+<linearGradient id="court-bg" x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#244c3c"/><stop offset="1" stop-color="#173d31"/></linearGradient>
+<linearGradient id="court-surface" x1="80" y1="0" x2="450" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#315b44"/><stop offset="1" stop-color="#28503d"/></linearGradient>
+<radialGradient id="ball-paint" cx=".35" cy=".25" r=".9"><stop stop-color="#ed9b6e"/><stop offset=".75" stop-color="#dd794f"/><stop offset="1" stop-color="#bd5938"/></radialGradient>
+<filter id="ball-shadow" x="-1" y="-2" width="3" height="5"><feGaussianBlur stdDeviation="7"/></filter>
+<clipPath id="court-clip"><path d="M0 0h640v400H0z"/></clipPath>
+<clipPath id="ball-clip"><circle cx="468" cy="270" r="23"/></clipPath>
+</defs>
+<g clip-path="url(#court-clip)">
+<path d="M0 0h640v400H0z" fill="url(#court-bg)"/>
+<path d="M150-65 627 16 509 500-42 389Z" fill="url(#court-surface)"/>
+<path d="M196-51 590 16 478 471 28 377Z" stroke="#f4f2e9" stroke-width="2.2" stroke-opacity=".82"/>
+<path d="m150-65-192 454m669-373L509 500" stroke="#f4f2e9" stroke-width="2.2" stroke-opacity=".82"/>
+<path d="M83 155 548 242M133 48 576 129M46 280 519 373" stroke="#f4f2e9" stroke-width="2.2" stroke-opacity=".82"/>
+<path d="m355 89-59 240" stroke="#f4f2e9" stroke-width="2.2" stroke-opacity=".82"/>
+<path d="M76 163 546 250" stroke="#0b2a21" stroke-width="10" stroke-opacity=".14"/>
+<path d="M83 155 548 242" stroke="#f4f2e9" stroke-width="3.6"/>
+<path d="M84 155 79 175M549 242 544 262" stroke="#dce3cc" stroke-width="4"/>
+<path d="M87 159 545 245" stroke="#f4f2e9" stroke-width="12" stroke-opacity=".07"/>
+<ellipse cx="484" cy="294" rx="29" ry="9" fill="#07261b" fill-opacity=".55" filter="url(#ball-shadow)"/>
+<circle cx="468" cy="270" r="23" fill="url(#ball-paint)"/>
+<g clip-path="url(#ball-clip)" stroke="#f4f2e9" stroke-opacity=".92" stroke-width="1.7">
+<path d="M450 242c18 6 23 21 17 35-4 8-3 15 3 23"/>
+<path d="M485 242c-14 9-16 24-8 33 6 8 15 11 21 13"/>
+</g>
+<circle cx="449" cy="251" r="2" fill="#edaf80" fill-opacity=".7"/>
+</g>
+</svg>
